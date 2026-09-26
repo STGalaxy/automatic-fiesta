@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Đồng Tháp - Đất Sen Hồng</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+
+        <div class="logo">
+            <span>🌸</span>
+            <div>
+                <strong>ĐỒNG THÁP</strong>
+                <small>Đất Sen Hồng</small>
+            </div>
+        </div>
+
+        <nav class="nav" id="nav">
+            <a href="#home">Trang chủ</a>
+            <a href="#gioi-thieu">Giới thiệu</a>
+            <a href="#diem-den">Điểm đến</a>
+            <a href="#am-thuc">Ẩm thực</a>
+            <a href="#sen">Hoa sen</a>
+        </nav>
+
+        <div class="header-actions">
+            <button id="themeBtn" class="icon-btn">🌙</button>
+            <button id="menuBtn" class="menu-btn">☰</button>
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="hero-label">🇻🇳 MIỀN TÂY NAM BỘ</p>
+
+            <h1>
+                ĐỒNG THÁP
+                <span>ĐẤT SEN HỒNG</span>
+            </h1>
+
+            <p class="hero-description">
+                Về với Đồng Tháp, nơi những cánh đồng sen trải dài,
+                những dòng sông hiền hòa và nét đẹp mộc mạc của miền Tây.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#diem-den" class="btn btn-primary">
+                    Khám phá ngay →
+                </a>
+
+                <a href="#gioi-thieu" class="btn btn-outline">
+                    Tìm hiểu Đồng Tháp
+                </a>
+            </div>
+
+        </div>
+
+        <div class="scroll-down">
+            <span>Cuộn xuống</span>
+            ↓
+        </div>
+
+    </section>
+
+
+    <!-- ================= GIỚI THIỆU ================= -->
+    <section class="section intro" id="gioi-thieu">
+
+        <div class="section-title reveal">
+            <span>VỀ ĐỒNG THÁP</span>
+            <h2>Nơi hội tụ vẻ đẹp miền Tây</h2>
+            <p>
+                Đồng Tháp mang trong mình vẻ đẹp bình dị, xanh mát
+                và đậm đà bản sắc văn hóa vùng sông nước.
+            </p>
+        </div>
+
+        <div class="intro-grid">
+
+            <div class="intro-text reveal">
+
+                <h3>🌿 Một vùng đất thân thương</h3>
+
+                <p>
+                    Đồng Tháp là vùng đất nổi tiếng với những cánh đồng
+                    sen, những khu sinh thái rộng lớn và hệ thống sông
+                    ngòi đặc trưng của Đồng bằng sông Cửu Long.
+                </p>
+
+                <p>
+                    Không chỉ có thiên nhiên tươi đẹp, Đồng Tháp còn
+                    sở hữu nhiều giá trị lịch sử, văn hóa và ẩm thực
+                    đặc sắc.
+                </p>
+
+                <div class="stats">
+
+                    <div class="stat">
+                        <strong>🌸</strong>
+                        <span>Đất Sen Hồng</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>🌾</strong>
+                        <span>Miền quê sông nước</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>🍜</strong>
+                        <span>Ẩm thực đặc sắc</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="intro-card reveal">
+
+                <div class="quote">
+                    <span>“</span>
+
+                    <p>
+                        Đồng Tháp quê mình,
+                        đẹp từ những điều bình dị nhất.
+                    </p>
+
+                    <small>— Đất Sen Hồng 🌸</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ĐIỂM ĐẾN ================= -->
+    <section class="section destinations" id="diem-den">
+
+        <div class="section-title reveal">
+
+            <span>KHÁM PHÁ</span>
+
+            <h2>Những điểm đến nổi bật</h2>
+
+            <p>
+                Cùng khám phá những địa danh mang dấu ấn riêng
+                của Đồng Tháp.
+            </p>
+
+        </div>
+
+
+        <!-- SEARCH -->
+        <div class="search-box reveal">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="🔎 Tìm kiếm địa điểm..."
+            >
+
+        </div>
+
+
+        <div class="destination-grid" id="destinationGrid">
+
+            <!-- CARD 1 -->
+            <article class="destination-card reveal" data-name="Khu di tích Xẻo Quýt">
+
+                <div class="card-image xeo-quyt">
+                    <span>🌳</span>
+                </div>
+
+                <div class="card-content">
+
+                    <span class="card-tag">LỊCH SỬ</span>
+
+                    <h3>Khu di tích Xẻo Quýt</h3>
+
+                    <p>
+                        Không gian xanh giữa rừng tràm,
+                        gắn liền với lịch sử vùng đất Đồng Tháp.
+                    </p>
+
+                    <button class="detail-btn">
+                        Xem thêm →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 2 -->
+            <article class="destination-card reveal" data-name="Vườn quốc gia Tràm Chim">
+
+                <div class="card-image tram-chim">
+                    <span>🦩</span>
+                </div>
+
+                <div class="card-content">
+
+                    <span class="card-tag">THIÊN NHIÊN</span>
+
+                    <h3>Vườn quốc gia Tràm Chim</h3>
+
+                    <p>
+                        Vùng đất ngập nước nổi tiếng với hệ sinh thái
+                        phong phú và nhiều loài chim quý.
+                    </p>
+
+                    <button class="detail-btn">
+                        Xem thêm →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 3 -->
+            <article class="destination-card reveal" data-name="Khu di tích Nguyễn Sinh Sắc">
+
+                <div class="card-image nguyen-sinh-sac">
+                    <span>🏛️</span>
+                </div>
+
+                <div class="card-content">
+
+                    <span class="card-tag">VĂN HÓA</span>
+
+                    <h3>Khu di tích Nguyễn Sinh Sắc</h3>
+
+                    <p>
+                        Địa điểm văn hóa, lịch sử gắn với
+                        cụ Phó bảng Nguyễn Sinh Sắc.
+                    </p>
+
+                    <button class="detail-btn">
+                        Xem thêm →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 4 -->
+            <article class="destination-card reveal" data-name="Làng hoa Sa Đéc">
+
+                <div class="card-image sa-dec">
+                    <span>🌺</span>
+                </div>
+
+                <div class="card-content">
+
+                    <span class="card-tag">LÀNG HOA</span>
+
+                    <h3>Làng hoa Sa Đéc</h3>
+
+                    <p>
+                        Làng hoa nổi tiếng với nhiều loại hoa
+                        rực rỡ và không gian miệt vườn đặc trưng.
+                    </p>
+
+                    <button class="detail-btn">
+                        Xem thêm →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 5 -->
+            <article class="destination-card reveal" data-name="Đồng Sen Tháp Mười">
+
+                <div class="card-image thap-muoi">
+                    <span>🌸</span>
+                </div>
+
+                <div class="card-content">
+
+                    <span class="card-tag">ĐỒNG SEN</span>
+
+                    <h3>Đồng Sen Tháp Mười</h3>
+
+                    <p>
+                        Những cánh đồng sen tạo nên hình ảnh
+                        đặc trưng của vùng đất Sen Hồng.
+                    </p>
+
+                    <button class="detail-btn">
+                        Xem thêm →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 6 -->
+            <article class="destination-card reveal" data-name="Chùa Kiến An Cung">
+
+                <div class="card-image kien-an-cung">
+                    <span>🏯</span>
+                </div>
+
+                <div class="card-content">
+
+                    <span class="card-tag">KIẾN TRÚC</span>
+
+                    <h3>Kiến An Cung</h3>
+
+                    <p>
+                        Công trình kiến trúc mang dấu ấn văn hóa
+                        của cộng đồng người Hoa tại Sa Đéc.
+                    </p>
+
+                    <button class="detail-btn">
+                        Xem thêm →
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <p id="noResult" class="no-result">
+            Không tìm thấy địa điểm phù hợp.
+        </p>
+
+    </section>
+
+
+    <!-- ================= ẨM THỰC ================= -->
+    <section class="section food" id="am-thuc">
+
+        <div class="section-title reveal">
+
+            <span>HƯƠNG VỊ QUÊ HƯƠNG</span>
+
+            <h2>Ẩm thực Đồng Tháp</h2>
+
+            <p>
+                Những món ăn dân dã mang đậm hương vị miền Tây.
+            </p>
+
+        </div>
+
+
+        <div class="food-grid">
+
+            <div class="food-item reveal">
+                <div class="food-icon">🍲</div>
+                <h3>Hủ tiếu Sa Đéc</h3>
+                <p>
+                    Món ăn quen thuộc với sợi hủ tiếu mềm,
+                    nước dùng đậm đà.
+                </p>
+            </div>
+
+            <div class="food-item reveal">
+                <div class="food-icon">🐟</div>
+                <h3>Cá lóc nướng trui</h3>
+                <p>
+                    Hương vị dân dã đặc trưng của miền Tây
+                    sông nước.
+                </p>
+            </div>
+
+            <div class="food-item reveal">
+                <div class="food-icon">🌸</div>
+                <h3>Các món từ sen</h3>
+                <p>
+                    Sen được sử dụng trong nhiều món ăn,
+                    thức uống và đặc sản địa phương.
+                </p>
+            </div>
+
+            <div class="food-item reveal">
+                <div class="food-icon">🥥</div>
+                <h3>Đặc sản miền Tây</h3>
+                <p>
+                    Nhiều món ăn dân dã kết hợp nguyên liệu
+                    tự nhiên của vùng sông nước.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SEN ================= -->
+    <section class="sen-section" id="sen">
+
+        <div class="sen-overlay"></div>
+
+        <div class="sen-content reveal">
+
+            <span>🌸 BIỂU TƯỢNG ĐỒNG THÁP</span>
+
+            <h2>Hoa Sen</h2>
+
+            <p>
+                Hoa sen gắn liền với hình ảnh Đồng Tháp —
+                mộc mạc, thanh khiết và đầy sức sống.
+            </p>
+
+            <a href="#home" class="btn btn-primary">
+                Về đầu trang ↑
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div>
+                <h3>🌸 ĐỒNG THÁP</h3>
+
+                <p>
+                    Đất Sen Hồng — nơi vẻ đẹp miền Tây
+                    được lưu giữ qua thiên nhiên, văn hóa
+                    và con người.
+                </p>
+            </div>
+
+            <div>
+                <h4>Khám phá</h4>
+
+                <a href="#gioi-thieu">Giới thiệu</a>
+                <a href="#diem-den">Điểm đến</a>
+                <a href="#am-thuc">Ẩm thực</a>
+            </div>
+
+            <div>
+                <h4>Liên kết</h4>
+
+                <a href="#home">Trang chủ</a>
+                <a href="#sen">Hoa sen</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Đồng Tháp - Đất Sen Hồng
+        </div>
+
+    </footer>
+
+
+    <!-- NÚT LÊN ĐẦU -->
+    <button id="topBtn" class="top-btn">
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
